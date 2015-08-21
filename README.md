@@ -1,5 +1,5 @@
-# gists
-Buddyweb collection of Gists
+# Snippets
+Collection of Buddyweb's finest snippets
 
 ## Javascript
 
