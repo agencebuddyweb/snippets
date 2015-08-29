@@ -37,3 +37,16 @@ Collection of Buddyweb's finest snippets
 		    });
 		</script>
 
+## Social Networks
+
+#### Boutons de partage de la page actuelle
+
+Définir $currentUrl comme l'URL actuelle
+
+	<ul class="social-buttons">
+		<span>Partagez :</span>
+		<a href="mailto:?subject=Partage par email : Formations Afges&body=Je vous ai partagé ce lien : <?php echo $currentUrl; ?>"><span>MAIL</span></a>
+		<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo $currentUrl; ?>"><span>FB</span></a>
+		<a target="_blank" href="http://twitter.com/share?url=<?php echo $currentUrl; ?>"><span>TW</span></a>
+		<a href="javascript:window.print()">PRINT</a>
+	</ul>
